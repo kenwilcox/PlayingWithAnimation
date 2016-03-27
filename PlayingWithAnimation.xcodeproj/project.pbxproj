@@ -14,6 +14,7 @@
 		BEED01AA1CA791F0000DC9D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEED01A81CA791F0000DC9D7 /* LaunchScreen.storyboard */; };
 		BEED01B51CA791F0000DC9D7 /* PlayingWithAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED01B41CA791F0000DC9D7 /* PlayingWithAnimationTests.swift */; };
 		BEED01C01CA791F0000DC9D7 /* PlayingWithAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED01BF1CA791F0000DC9D7 /* PlayingWithAnimationUITests.swift */; };
+		BEED01CE1CA79264000DC9D7 /* Content in Resources */ = {isa = PBXBuildFile; fileRef = BEED01CD1CA79264000DC9D7 /* Content */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BEED01BB1CA791F0000DC9D7 /* PlayingWithAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayingWithAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEED01BF1CA791F0000DC9D7 /* PlayingWithAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingWithAnimationUITests.swift; sourceTree = "<group>"; };
 		BEED01C11CA791F0000DC9D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEED01CD1CA79264000DC9D7 /* Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Content; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		BEED019E1CA791F0000DC9D7 /* PlayingWithAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				BEED01CD1CA79264000DC9D7 /* Content */,
 				BEED019F1CA791F0000DC9D7 /* AppDelegate.swift */,
 				BEED01A11CA791F0000DC9D7 /* ViewController.swift */,
 				BEED01A31CA791F0000DC9D7 /* Main.storyboard */,
@@ -231,6 +234,7 @@
 			files = (
 				BEED01AA1CA791F0000DC9D7 /* LaunchScreen.storyboard in Resources */,
 				BEED01A71CA791F0000DC9D7 /* Assets.xcassets in Resources */,
+				BEED01CE1CA79264000DC9D7 /* Content in Resources */,
 				BEED01A51CA791F0000DC9D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
