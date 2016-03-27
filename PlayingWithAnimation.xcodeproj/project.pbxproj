@@ -49,6 +49,8 @@
 		BEED01BF1CA791F0000DC9D7 /* PlayingWithAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingWithAnimationUITests.swift; sourceTree = "<group>"; };
 		BEED01C11CA791F0000DC9D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEED01CD1CA79264000DC9D7 /* Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Content; sourceTree = "<group>"; };
+		BEED01CF1CA79405000DC9D7 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		BEED01D01CA79405000DC9D7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,8 @@
 		BEED01931CA791F0000DC9D7 = {
 			isa = PBXGroup;
 			children = (
+				BEED01CF1CA79405000DC9D7 /* LICENSE.md */,
+				BEED01D01CA79405000DC9D7 /* README.md */,
 				BEED019E1CA791F0000DC9D7 /* PlayingWithAnimation */,
 				BEED01B31CA791F0000DC9D7 /* PlayingWithAnimationTests */,
 				BEED01BE1CA791F0000DC9D7 /* PlayingWithAnimationUITests */,
