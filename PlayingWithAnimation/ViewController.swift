@@ -42,6 +42,10 @@ class ViewController: UIViewController {
                 self.imageView.transform = CGAffineTransformMakeTranslation(-256, -256)
             case 3:
                 self.imageView.transform = CGAffineTransformIdentity
+            case 4:
+                self.imageView.transform = CGAffineTransformMakeRotation(CGFloat(M_PI))
+            case 5:
+                self.imageView.transform = CGAffineTransformIdentity
             default:
                 break
             }
