@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         imageView = UIImageView(image: UIImage(named: "penguin"))
-        imageView.center = CGPoint(x: 512, y: 384)
+        imageView.center = view.center
         view.addSubview(imageView)
     }
     
@@ -29,10 +29,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func tapped(sender: AnyObject) {
-        currentAnimation += 1
-        if currentAnimation > 7 {
-            currentAnimation = 0
-        }
+        currentAnimation = (currentAnimation + 1 ) % 8
         print(currentAnimation)
     }
     
